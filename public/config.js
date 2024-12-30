@@ -2,12 +2,12 @@
 window.Config = {
 
   // 显示标题
-  SiteName: '云生站点监测',
+  SiteName: 'linteresting status',
 
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only
   ApiKeys: [
-    'ur1078385-b9802a0868414b8a975d5038',
+    'ur2773346-2768a4d2853cff5aa1a8feae',
   ],
 
     // 日志天数
@@ -16,21 +16,17 @@ window.Config = {
   CountDays: 60,
 
   // 是否显示检测站点的链接
-  ShowLink: true,
+  ShowLink: false,
 
   // 导航栏菜单
   Navi: [
     {
-      text: '主页',
-      url: 'https://tjys.tk'
+      text: 'main',
+      url: 'https://www.linteresting.cn:8443'
     },
     {
-      text: '博客',
-      url: 'https://blog.qikaile.tk'
-    },
-    {
-      text: 'GitHub',
-      url: 'https://github.com/qikaile/uptime-status'
-    },
+      text: 'fnos',
+      url: 'https://fnos.linteresting.cn:8443'
+    }
   ],
 };
